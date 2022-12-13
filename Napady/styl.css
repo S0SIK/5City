@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    background: #1d1d1f;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0 !important;
+    color: white;
+}
+
+.all {
+    width: 100%;
+
+}
+
+.wstawka {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.mapa {
+    width: 2%;
+    padding: 40px 0;
+}
+
+.logo {
+    width: auto;
+    font-size: 150px;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.naw {
+    width: 100%;
+    padding: 10px 0;
+    height: 30px;
+    background: #1a1738;
+    border-top: 3px solid #f9f2b0;
+    border-bottom: 3px solid #f9f2b0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 100%;
+    width: 150%;
+    display: inline-block;
+}
+
+ol a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+ol>li {
+    float: left;
+    width: 16.309%;
+    height: 100%;
+    border-right: 3px solid #f9f2b0;
+}
+
+ol>li:hover {
+    background-color: #1e1579;
+}
+
+ol>li:first-child {
+    border-left: 3px solid #f9f2b0;
+}
+
+.text {
+    text-decoration: solid;
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    text-align: left;
+}
