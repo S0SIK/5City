@@ -1,0 +1,52 @@
+{
+    "sell": {
+        "domek 1": {
+            "Blip": " ",
+            "Tytuł": "Sell domki",
+            "GPS": {
+                 "x": "1300",
+                "y": "1200"
+                },
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
+            "Opis": " ",
+            "Produkt": " ",
+            "Cena": " ",
+            "Craft_1": " ",
+            "Craft_2": " ",
+            "Craft_3": " ",
+            "Craft_4": " "
+        },
+        "domek 2": {
+            "Blip": " ",
+            "Tytuł": "Sell domki",
+            "GPS": {
+                 "x": "1300",
+                "y": "1200"
+                },
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
+            "Opis": " ",
+            "Produkt": " ",
+            "Cena": " ",
+            "Craft_1": " ",
+            "Craft_2": " ",
+            "Craft_3": " ",
+            "Craft_4": " "
+        },
+        "domek 3": {
+            "Blip": " ",
+            "Tytuł": "Sell domki",
+            "GPS": {
+                 "x": "1300",
+                "y": "1200"
+                },
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
+            "Opis": " ",
+            "Produkt": " ",
+            "Cena": " ",
+            "Craft_1": " ",
+            "Craft_2": " ",
+            "Craft_3": " ",
+            "Craft_4": " "
+        }
+    }
+}
