@@ -39,7 +39,7 @@ var scale = 1,
   fetch(`GPS/Lokacje.json`)
     .then(response => response.json())
     .then(data => {
-console.log(data.data.data)
+console.log(data)
 
       const Blip = data.data.data.Blip
       const Tytuł = data.data.data.Tytuł
