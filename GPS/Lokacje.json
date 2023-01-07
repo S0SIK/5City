@@ -19,14 +19,62 @@
                 },
             "Png": "https://cdn.discordapp.com/attachments/1056995456019869807/1057011555587346482/image.png"
         },
-        "domek 3": {
-            "Blip": "Kropka",
+        "Meta": {
+            "Blip": "Lab",
+            "Tytuł": "Meta Sendy",
+            "GPS": {
+                "left": "800",
+                "bottom": "1200"
+                },
+            "Png": " "
+        },
+        "Meta2": {
+            "Blip": "Lab",
+            "Tytuł": "Meta Paleto",
+            "GPS": {
+                "left": "750",
+                "bottom": "2100"
+                },
+            "Png": " "
+        },
+        "Kodeina1": {
+            "Blip": "Koda",
+            "Tytuł": "Zlecenie 22-7",
+            "GPS": {
+                "left": "590",
+                "bottom": "620"
+                },
+            "Png": "https://cdn.discordapp.com/attachments/1059295879137333371/1059563871129567392/image.png"
+        },
+        "Kodeina2": {
+            "Blip": "Koda",
+            "Tytuł": "Sprzedaż 7-22",
+            "GPS": {
+                "left": "580",
+                "bottom": "785"
+                },
+            "Png": "https://cdn.discordapp.com/attachments/1059295879137333371/1059566975396884491/image.png"
+        },
+        "Zioło": {
+            "Blip": "Zioło",
+            "Tytuł": "Stół",
+            "GPS": {
+                "left": "1405",
+                "bottom": "1790"
+                },
+            "Png": " "
+        }
+    },
+    "kupno": {
+        "domek 1": {
+            "Blip": "Domki",
             "Tytuł": "Sell domki",
             "GPS": {
-                "left": "0",
-                "bottom": "0"
+                "left": "1320",
+                "bottom": "1120"
                 },
-            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
+            "Opis": "L:1280 H:1120"
         }
     }
 }
