@@ -66,7 +66,7 @@ for (const [Key1, value1] of Object.entries(data)) {
     if (Key === 'sell') {
     const htm =
       `<div class="punkt" style="position: relative; left: ${left}px; bottom:  ${bottom}px">
-      <img class="punkt" width="15" height="15" src="img/${Blip}.png" alt="...">
+      <img class="punkt" width="10" height="10" src="img/${Blip}.png" alt="...">
       <div class="visible">
     <div>${Tytuł}</div>
     <img width="150" height="75" src="${Png}">
