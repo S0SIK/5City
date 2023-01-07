@@ -33,7 +33,7 @@
             "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                "left": " ",
+                "left": "0",
                 "bottom": " "
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
@@ -42,8 +42,8 @@
             "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                "left": " ",
-                "bottom": " "
+                "left": "0",
+                "bottom": "0"
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
         }
