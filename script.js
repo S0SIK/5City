@@ -40,26 +40,29 @@ var scale = 1,
     .then(response => response.json())
     .then(data => {
 console.log(data)
+for (const [data, value1] of Object.entries(data)) {
+  for (const [data, value2] of Object.entries(value1)) {
+      const Blip = value2.Blip
+      const Tytuł = value2.Tytuł
+      const x = value2.GPS.x
+      const y = value2.GPS.y
+      const Png = value2.Png
+      const Opis = value2.Opis
+      const Produkt = value2.Produkt
+      const Cena = value2.Cena
+      const Craft_1 = value2.Craft_1
+      const Craft_2 = value2.Craft_2
+      const Craft_3 = value2.Craft_3
+      const Craft_4 = value2.Craft_4
 
-      const Blip = data.data.data.Blip
-      const Tytuł = data.data.data.Tytuł
-      const GPS = data.data.data.GPS
-      const x = data.data.data.x
-      const y = data.data.data.y
-      const Png = data.data.data.Png
-      const Opis = data.data.data.Opis
-      const Produkt = data.data.data.Produkt
-      const Cena = data.data.data.Cena
-      const Craft_1 = data.data.data.Craft_1
-      const Craft_2 = data.data.data.Craft_2
-      const Craft_3 = data.data.data.Craft_3
-      const Craft_4 = data.data.data.Craft_4
+      createButton(Blip, Tytuł, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4)
+       }
+      }
 
-      createButton(Blip, Tytuł, GPS, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4)
     })
 
 
-  function createButton(Blip, Tytuł, GPS, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4) {
+  function createButton(Blip, Tytuł, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4) {
 
     const htm =
       `<div class="punkt" style="position: relative; left: 1285px; bottom: 1252px">
