@@ -65,14 +65,14 @@ for (const [data1, value1] of Object.entries(data)) {
   function createButton(Blip, Tytuł, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4) {
 
     const htm =
-      `<div class="punkt" style="position: relative; left: 1285px; bottom: 1252px">
-      <img class="punkt" width="5" height="5" src="img/Kropka.png" alt="...">
+      `<div class="punkt" style="position: relative; left: ${x}px; bottom:  ${y}px">
+      <img class="punkt" width="5" height="5" src="img/${Blip}.png" alt="...">
       <div class="visible">
-    <div>Sell Domki</div>
+    <div>${Tytuł}</div>
     <img width="150" height="75" src="${Png}">
     <div class="produkt">
-      <img class="ramka" src="img/Kodeina.png" width="30" height="30">
-      <div class="cena">  -300$</Div>
+      <img class="ramka" src="img/${Produkt}.png" width="30" height="30">
+      <div class="cena">  ${Cena, Opis}</Div>
     </div>
       </div>`;
 

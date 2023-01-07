@@ -1,7 +1,7 @@
 {
     "sell": {
         "domek 1": {
-            "Blip": " ",
+            "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
                  "x": "1300",
@@ -17,10 +17,10 @@
             "Craft_4": " "
         },
         "domek 2": {
-            "Blip": " ",
+            "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                 "x": "1300",
+                 "x": "1400",
                 "y": "1200"
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
@@ -33,11 +33,11 @@
             "Craft_4": " "
         },
         "domek 3": {
-            "Blip": " ",
+            "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
                  "x": "1300",
-                "y": "1200"
+                "y": "1400"
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
             "Opis": " ",
