@@ -1,52 +1,51 @@
 {
+    "Testowy":{
+        "Blip": " ",
+        "Tytuł": " ",
+        "GPS": {
+             "left": " ",
+             "bottom": " "
+            },
+        "Png": " ",
+        "Opis": " ",
+        "Produkt": " ",
+        "Cena": " ",
+        "Craft_1": " ",
+        "Craft_2": " ",
+        "Craft_3": " ",
+        "Craft_4": " "
+    },
+
+
+
     "sell": {
         "domek 1": {
             "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                 "x": "1300",
-                "y": "1200"
+                "left": "1230",
+                "bottom": "1100"
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
-            "Opis": " ",
-            "Produkt": " ",
-            "Cena": " ",
-            "Craft_1": " ",
-            "Craft_2": " ",
-            "Craft_3": " ",
-            "Craft_4": " "
+            "Opis": "1230 1100"
         },
         "domek 2": {
             "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                 "x": "1400",
-                "y": "1200"
+                "left": " ",
+                "bottom": " "
                 },
-            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
-            "Opis": " ",
-            "Produkt": " ",
-            "Cena": " ",
-            "Craft_1": " ",
-            "Craft_2": " ",
-            "Craft_3": " ",
-            "Craft_4": " "
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
         },
         "domek 3": {
             "Blip": "Kropka",
             "Tytuł": "Sell domki",
             "GPS": {
-                 "x": "1300",
-                "y": "1400"
+                "left": " ",
+                "bottom": " "
                 },
-            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
-            "Opis": " ",
-            "Produkt": " ",
-            "Cena": " ",
-            "Craft_1": " ",
-            "Craft_2": " ",
-            "Craft_3": " ",
-            "Craft_4": " "
+            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
         }
     }
 }

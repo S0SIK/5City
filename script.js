@@ -44,8 +44,8 @@ for (const [data1, value1] of Object.entries(data)) {
   for (const [data2, value2] of Object.entries(value1)) {
       const Blip = value2.Blip
       const Tytuł = value2.Tytuł
-      const x = value2.GPS.x
-      const y = value2.GPS.y
+      const left = value2.GPS.left
+      const bottom = value2.GPS.bottom
       const Png = value2.Png
       const Opis = value2.Opis
       const Produkt = value2.Produkt
@@ -55,17 +55,17 @@ for (const [data1, value1] of Object.entries(data)) {
       const Craft_3 = value2.Craft_3
       const Craft_4 = value2.Craft_4
 
-      createButton(Blip, Tytuł, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4)
+      createButton(Blip, Tytuł, left, bottom, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4)
        }
       }
 
     })
 
 
-  function createButton(Blip, Tytuł, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4) {
+  function createButton(Blip, Tytuł, left, bottom, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4) {
 
     const htm =
-      `<div class="punkt" style="position: relative; left: ${x}px; bottom:  ${y}px">
+      `<div class="punkt" style="position: relative; left: ${left}px; bottom:  ${bottom}px">
       <img class="punkt" width="5" height="5" src="img/${Blip}.png" alt="...">
       <div class="visible">
     <div>${Tytuł}</div>
