@@ -1,42 +1,23 @@
 {
-    "Testowy":{
-        "Blip": " ",
-        "Tytuł": " ",
-        "GPS": {
-             "left": " ",
-             "bottom": " "
-            },
-        "Png": " ",
-        "Opis": " ",
-        "Produkt": " ",
-        "Cena": " ",
-        "Craft_1": " ",
-        "Craft_2": " ",
-        "Craft_3": " ",
-        "Craft_4": " "
-    },
-
-
-
     "sell": {
         "domek 1": {
-            "Blip": "Kropka",
+            "Blip": "Domki",
             "Tytuł": "Sell domki",
             "GPS": {
-                "left": "1230",
-                "bottom": "1100"
+                "left": "1320",
+                "bottom": "1120"
                 },
             "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png",
-            "Opis": "1230 1100"
+            "Opis": "L:1280 H:1120"
         },
         "domek 2": {
-            "Blip": "Kropka",
+            "Blip": "Domki",
             "Tytuł": "Sell domki",
             "GPS": {
-                "left": " ",
-                "bottom": " "
+                "left": "1325",
+                "bottom": "1620"
                 },
-            "Png": "https://cdn.discordapp.com/attachments/1051936236996153495/1051936360568737852/image.png"
+            "Png": "https://cdn.discordapp.com/attachments/1056995456019869807/1057011555587346482/image.png"
         },
         "domek 3": {
             "Blip": "Kropka",
