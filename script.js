@@ -39,20 +39,21 @@ var scale = 1,
   fetch(`GPS/Lokacje.json`)
     .then(response => response.json())
     .then(data => {
+console.log(data.data.data)
 
-      const Blip = data.Blip
-      const Tytuł = data.Tytuł
-      const GPS = data.GPS
-      const x = data.x
-      const y = data.y
-      const Png = data.Png
-      const Opis = data.Opis
-      const Produkt = data.Produkt
-      const Cena = data.Cena
-      const Craft_1 = data.Craft_1
-      const Craft_2 = data.Craft_2
-      const Craft_3 = data.Craft_3
-      const Craft_4 = data.Craft_4
+      const Blip = data.data.data.Blip
+      const Tytuł = data.data.data.Tytuł
+      const GPS = data.data.data.GPS
+      const x = data.data.data.x
+      const y = data.data.data.y
+      const Png = data.data.data.Png
+      const Opis = data.data.data.Opis
+      const Produkt = data.data.data.Produkt
+      const Cena = data.data.data.Cena
+      const Craft_1 = data.data.data.Craft_1
+      const Craft_2 = data.data.data.Craft_2
+      const Craft_3 = data.data.data.Craft_3
+      const Craft_4 = data.data.data.Craft_4
 
       createButton(Blip, Tytuł, GPS, x, y, Png, Opis, Produkt, Cena, Craft_1, Craft_2, Craft_3, Craft_4)
     })
