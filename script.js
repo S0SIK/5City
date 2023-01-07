@@ -40,8 +40,8 @@ var scale = 1,
     .then(response => response.json())
     .then(data => {
 console.log(data)
-for (const [data, value1] of Object.entries(data)) {
-  for (const [data, value2] of Object.entries(value1)) {
+for (const [data1, value1] of Object.entries(data)) {
+  for (const [data2, value2] of Object.entries(value1)) {
       const Blip = value2.Blip
       const Tytuł = value2.Tytuł
       const x = value2.GPS.x
